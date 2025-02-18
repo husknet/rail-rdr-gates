@@ -12,7 +12,7 @@ const app = express();
 
 // ✅ Enable CORS for External Access
 app.use((req, res, next) => {
-    res.header("Access-Control-Allow-Origin", "https://www.kebtrgates.top");  // Change "*" to a specific domain if needed
+    res.header("Access-Control-Allow-Origin", "https://gt.tobybakare.top/");  // Change "*" to a specific domain if needed
     res.header("Access-Control-Allow-Methods", "GET, POST, OPTIONS");
     res.header("Access-Control-Allow-Headers", "Content-Type, Authorization");
 
